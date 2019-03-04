@@ -4,8 +4,8 @@ import jsonpickle.pickler
 import requests
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com',993)
-umm = 'tenzindhondup1@gmail.com'
-pwd = 'tenzinlama123'
+umm = 'email'
+pwd = 'passowrd'
 mail.login(umm,pwd)
 
 class JSONRequest:
